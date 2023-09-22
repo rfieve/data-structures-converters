@@ -8,8 +8,8 @@ A TypeScript library to convert binary-search-trees, doubly linked lists of any 
     -   [Table of Content](#table-of-content)
     -   [Installation](#installation)
     -   [Documentation](#documentation)
-        -   [`convertDLLtoBST`](#convertdlltobst)
-        -   [`convertBSTtoDLL`](#convertbsttodll)
+        -   [`convertDLLtoBST`, `convertBSTtoDLLInstance`](#convertdlltobst-convertbsttodllinstance)
+        -   [`convertBSTtoDLL`, `convertDLLtoBSTInstance`](#convertbsttodll-convertdlltobstinstance)
 
 ## Installation
 
@@ -25,9 +25,9 @@ npm install @romainfieve/data-structures-converters
 
 ## Documentation
 
-### `convertDLLtoBST`
+### `convertDLLtoBST`, `convertBSTtoDLLInstance`
 
-Converts a doubly-linked-list to a binary search tree, depending on a given compare function if provided.
+Converts a doubly linked list to a binary search tree, depending on a given compare function if provided.
 
 ```typescript
 const compare = (a: number, b: number) => a - b;
@@ -52,9 +52,9 @@ const tree = convertDLLtoBST(list, compare);
 
 ---
 
-### `convertBSTtoDLL`
+### `convertBSTtoDLL`, `convertDLLtoBSTInstance`
 
-Converts a binary search tree to a doubly-linked-list, depending on a given compare function if provided.
+Converts a binary search tree to a doubly linked list, depending on a given compare function if provided.
 
 ```typescript
 const compare = (a: number, b: number) => a - b;

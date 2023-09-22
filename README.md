@@ -1,10 +1,10 @@
-# ✌️🔗📝 data-structures-converters
+# 💾🏰♻️ data-structures-converters
 
-A zero-dependency TypeScript library to work with doubly linked lists and arrays of any types.
+A TypeScript library to convert binary-search-trees, doubly linked lists of any types to one another.
 
 ## Table of Content
 
--   [✌️🔗📝 data-structures-converters](#️-data-structures-converters)
+-   [💾🏰♻️ data-structures-converters](#️-data-structures-converters)
     -   [Table of Content](#table-of-content)
     -   [Installation](#installation)
     -   [Documentation](#documentation)

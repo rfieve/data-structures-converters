@@ -11,6 +11,7 @@ describe('convertDLLtoBST', () => {
 describe('convertDLLtoBSTInstance', () => {
     it('should convert a doubly linked list to a binary search tree correctly', () => {
         const bst = convertDLLtoBSTInstance(mockedDLLInstance, compare);
+
         expect(bst.tree).toEqual(mockedBSTInstance.tree);
     });
 });

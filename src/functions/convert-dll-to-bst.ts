@@ -1,5 +1,5 @@
-import { CompareFunction, toBST } from '@romainfieve/binary-search-tree';
-import { DLL, toArrayInOrder } from '@romainfieve/doubly-linked-list';
+import { CompareFunction, toBST } from '@romainfieve/binary-search-tree'
+import { DLL, toArrayInOrder } from '@romainfieve/doubly-linked-list'
 
 /**
  * Converts a doubly linked list to a binary search tree.
@@ -8,5 +8,5 @@ import { DLL, toArrayInOrder } from '@romainfieve/doubly-linked-list';
  * @returns the binary search tree.
  */
 export function convertDLLtoBST<T>(dll: DLL<T>, compare: CompareFunction<T>) {
-    return toBST(toArrayInOrder(dll), compare);
+    return toBST(toArrayInOrder(dll), compare)
 }

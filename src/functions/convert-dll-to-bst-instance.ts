@@ -1,5 +1,5 @@
-import { BinarySearchTree, CompareFunction } from '@romainfieve/binary-search-tree';
-import { DoublyLinkedList } from '@romainfieve/doubly-linked-list';
+import { BinarySearchTree, CompareFunction } from '@romainfieve/binary-search-tree'
+import { DoublyLinkedList } from '@romainfieve/doubly-linked-list'
 
 /**
  * Converts a doubly linked list instance to a binary search tree instance.
@@ -8,5 +8,5 @@ import { DoublyLinkedList } from '@romainfieve/doubly-linked-list';
  * @returns the binary search tree instance.
  */
 export function convertDLLtoBSTInstance<T>(dll: DoublyLinkedList<T>, compare: CompareFunction<T>) {
-    return new BinarySearchTree(dll.toArrayInOrder(), compare);
+    return new BinarySearchTree(dll.toArrayInOrder(), compare)
 }

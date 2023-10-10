@@ -1,7 +1,7 @@
 import { convertBSTtoDLLInstance } from 'src/functions/convert-bst-to-dll-instance'
 
-import { convertBSTtoDLL } from '../functions/convert-bst-to-dll'
 import { compare, mockedBST, mockedBSTInstance, mockedDLL, mockedDLLInstance } from './_mocks'
+import { convertBSTtoDLL } from '../functions/convert-bst-to-dll'
 
 describe('convertBSTtoDLL', () => {
     it('should convert a binary search tree to a doubly linked list correctly', () => {
